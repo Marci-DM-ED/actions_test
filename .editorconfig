@@ -128,12 +128,12 @@ csharp_using_directive_placement = inside_namespace:silent
 #csharp_new_line_between_query_expression_clauses = true
 
 # Indentation preferences
-csharp_indent_block_contents = true
-csharp_indent_braces = false
-csharp_indent_case_contents = true
-csharp_indent_case_contents_when_block = true
-csharp_indent_labels = one_less_than_current
-csharp_indent_switch_labels = true
+#csharp_indent_block_contents = true
+#csharp_indent_braces = false
+#csharp_indent_case_contents = true
+#csharp_indent_case_contents_when_block = true
+#csharp_indent_labels = one_less_than_current
+#csharp_indent_switch_labels = true
 
 # Space preferences
 #csharp_space_after_cast = false
@@ -159,8 +159,8 @@ csharp_indent_switch_labels = true
 #csharp_space_between_square_brackets = false
 
 # Wrapping preferences
-csharp_preserve_single_line_blocks = true
-csharp_preserve_single_line_statements = true
+#csharp_preserve_single_line_blocks = true
+#csharp_preserve_single_line_statements = true
 
 #### Naming styles ####
 
