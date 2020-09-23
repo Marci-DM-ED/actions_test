@@ -1,0 +1,17 @@
+
+name: Lint Code Base
+
+on:
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Super-Linter
+        uses: github/super-linter@v3.11.0
