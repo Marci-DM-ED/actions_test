@@ -9,7 +9,7 @@ on:
       - develop
 
 jobs:
-  build:
+  run_code_linter:
     runs-on: ubuntu-latest
 
     steps:
