@@ -7,10 +7,7 @@ root = true
 #### Core EditorConfig Options ####
 
 # Indentation and spacing
-charset = utf8
-indent_size = 4
-indent_style = space
-tab_width = 4
+indent_style = tab
 
 # New line preferences
 end_of_line = lf
