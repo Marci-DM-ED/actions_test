@@ -7,11 +7,11 @@ root = true
 #### Core EditorConfig Options ####
 
 # Indentation and spacing
-indent_style = tab
+#indent_style = tab
 
 # New line preferences
-end_of_line = lf
-insert_final_newline = false
+#end_of_line = lf
+#insert_final_newline = false
 
 #### .NET Coding Conventions ####
 
