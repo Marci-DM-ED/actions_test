@@ -1,7 +1,5 @@
 name-template: 'Version $RESOLVED_VERSION'
 tag-template: '$RESOLVED_VERSION'
-exclude-labels:
-  - 'skip-changelog'
 categories:
   - title: '🚀 New Features'
     labels:
@@ -9,6 +7,10 @@ categories:
   - title: '🐞 Bug Fixes'
     labels:
       - 'bug'
+exclude-labels:
+  - 'skip-changelog'
+sort-by: title
+sort-direction: ascending
 change-template: '- $TITLE (#$NUMBER) @$AUTHOR'
 change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
 version-resolver:
