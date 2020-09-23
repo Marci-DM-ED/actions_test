@@ -2,14 +2,12 @@ using System;
 using System.Text;
 using UnityEngine;
 using UnityEngine.Serialization;
-
 /*===============================================================
 Project:	Peasyread
 Developer:	Marci San Diego
 Company:	David Morgan Education - marcianosd@dm-ed.com
 Date:		14/02/2019 13:55
 ===============================================================*/
-
 namespace DMED.AssetCatalog
 {
 	[Serializable]
