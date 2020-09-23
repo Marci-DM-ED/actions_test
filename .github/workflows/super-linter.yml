@@ -18,4 +18,7 @@ jobs:
       - name: Super-Linter
         uses: github/super-linter@v3.11.0
         env:
+          VALIDATE_ALL_CODEBASE: false
+          VALIDATE_CSHARP: true
+          DEFAULT_BRANCH: develop
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
