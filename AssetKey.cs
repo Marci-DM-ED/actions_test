@@ -28,6 +28,8 @@ namespace DMED.AssetCatalog
 
 		public bool isEmpty => string.IsNullOrWhiteSpace(keySet) || string.IsNullOrWhiteSpace(keyEvent);
 
+		private int test = -1;
+
 		public AssetKey(AssetKey assetKey)
 		{
 			keySet = assetKey.keySet;
